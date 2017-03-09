@@ -19,3 +19,6 @@
   * what dependencies
   * how to run tests from the command line
   * go wingnut on the commits
+
+## Testing
+* we are using Mocha and Chai for testing
