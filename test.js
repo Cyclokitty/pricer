@@ -7,3 +7,5 @@ describe('Does my index.js file exist', () => {
     expect(fs.readFileSync('./index.js')).to.exist;
   });
 });
+
+// test module.exports function

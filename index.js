@@ -21,7 +21,7 @@ module.exports = {
       materialRate = 0;
     }
 
-    flatCost = cost + (cost * flatRate);
-    return 'Output: $' + (flatCost + (flatCost * (staff * staffRate)) + (flatCost * materialRate)).toFixed(2);
+    flatMarkup = cost + (cost * flatRate);
+    return 'Output: $' + (flatMarkup + (flatMarkup * (staff * staffRate)) + (flatMarkup * materialRate)).toFixed(2);
   }
 }
