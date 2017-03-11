@@ -10,6 +10,7 @@ module.exports = {
     let flatRate = 0.05;
     let staffRate = 0.012;
     let materialRate;
+    let total;
 
     if (materials === 'pharmaceuticals' || materials === 'drugs') {
       materialRate = 0.075;
@@ -22,6 +23,8 @@ module.exports = {
     }
 
     flatMarkup = cost + (cost * flatRate);
-    return 'Output: $' + (flatMarkup + (flatMarkup * (staff * staffRate)) + (flatMarkup * materialRate)).toFixed(2);
+    total = (flatMarkup + (flatMarkup * (staff * staffRate)) + (flatMarkup * materialRate)).toFixed(2);
+    
+    return `Output: $${total}` ;
   }
 }
