@@ -1,6 +1,7 @@
-# pricer
+pricer
+======
 
-##Set up a price making app that should:
+**Set up a price making app that should:**
 * give a base 5% cost
 * provide for number of employees needed to complete order
   * the cost per employee is 1.2%
@@ -10,11 +11,11 @@
   * electronics 2%
   * everything else, there is no markup
 
-## Should be a library
+**Should be a library**
 
-## No UI or console logging necessary
+**No UI or console logging necessary**
 
-## Need instructions for the user including:
+**Need instructions for the user including:**
   * Node runtime verison (v6.2.1)
   * There are two dependencies required for the tests:
     * Mocha 3.2.0
@@ -23,5 +24,5 @@
     * run npm test
   * go wingnut on the commits
 
-## Testing
+**About the Testing:**
 * we are using Mocha and Chai for testing
