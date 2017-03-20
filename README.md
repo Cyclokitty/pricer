@@ -17,12 +17,17 @@ pricer
 
 **Need instructions for the user including:**
   * Node runtime verison (v6.2.1)
-  * There are two dependencies required for the tests:
-    * Mocha 3.2.0
-    * Chai 3.5.0
+  * how to install any dependencies:
+    * There are two dependencies required for the tests:
+      * Mocha 3.2.0
+      * Chai 3.5.0
+    * no need to install the dependencies just run:
+      * npm install
   * To run tests from the command line:
     * run npm test
-  * go wingnut on the commits
+
+**Many Commits:**
+* go wingnut on the commits ✅
 
 **About the Testing:**
 * we are using Mocha and Chai for testing
