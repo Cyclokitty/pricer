@@ -22,9 +22,37 @@ pricer
       * Mocha 3.2.0
       * Chai 3.5.0
     * no need to install the dependencies just run:
-      * npm install
+
+    ```
+    npm install
+
+    ```
+
   * To run tests from the command line:
-    * run npm test
+
+    ```
+    run npm test
+
+    ```
+
+  * to run pricer:
+
+  ```
+
+  var price = require('pricer');
+
+  ```
+
+  * to find a price:
+
+  ```
+  // you need the base cost, integer for number of people required for the job, and whether the job is for food, pharmaceuticals or drugs, electronics, or any other type of materials
+
+  price.pricer(1299.99, 3, 'food');
+
+  // should return: "Output: $1591.58"
+
+  ```
 
 **Many Commits:**
 * go wingnut on the commits ✅
