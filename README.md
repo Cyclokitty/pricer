@@ -39,7 +39,7 @@ pricer
 
   ```
 
-  var price = require('pricer');
+  var price = require('./index.js');
 
   ```
 
