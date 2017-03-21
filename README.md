@@ -31,7 +31,7 @@ pricer
   * To run tests from the command line:
 
     ```
-    run npm test
+    npm test
 
     ```
 
