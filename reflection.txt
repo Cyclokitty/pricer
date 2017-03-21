@@ -1,12 +1,12 @@
+My pricer library is very simple: the user inputs information from the client as parameters in the function call. Then the user gets back a statement with the complete price.
+
 This coding exercise sent me down a rabbit's hole about just what is a javascript library and how to make one.
 
-By the end of my research, I published a simple cat-namer library in npm (https://www.npmjs.com/package/cat-namer) and knew how I wanted to make my pricer library.
+In researching javascript libraries, I published as an exercise a simple cat-namer library in npm (https://www.npmjs.com/package/cat-namer). This taught me how I wanted to make my pricer library.
 
 I was worried that not building a web page with plenty of buttons and a form would not describe my abilities. Instead, I found out how to write code and documentation for other programmers to use in their own coding projects. I enjoyed this very much.
 
-The library is very simple: a user includes information from the client in the function call and receives back a statement with the complete price.
-
-My pricer exercise was also the first time I used testing and I am impressed with the fast and conclusive results. My future includes writing better tests for my code.
+My pricer exercise was also the first time I used testing and I am surprised by the fast and conclusive results. My future includes writing better tests for my code.
 
 As far as design choices, I did at first think of using the command line with args to implement the pricer. That way the user could input:
 
@@ -15,4 +15,4 @@ As far as design choices, I did at first think of using the command line with ar
 
 Perhaps with a text file where prices can be recorded for later review. I still may try that using Yargs (https://www.npmjs.com/package/yargs).
 
-Thank you for this internship opportunity and I am looking forward to your review of my coding exercise. 
+Thank you for this internship opportunity and I am looking forward to your review of my coding exercise.
